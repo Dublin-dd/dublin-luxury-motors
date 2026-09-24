@@ -1,0 +1,83 @@
+{
+  "mode": "built-in image_gen edit",
+  "inspection": "view_image only; no browser or computer control",
+  "results": [
+    {
+      "name": "hero",
+      "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/hero.png",
+      "reference": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/hero-badged.png",
+      "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-1ee8ce45-9f53-4a7b-b52e-8b809cca8523.png",
+      "status": "success",
+      "hoodBadgeVisible": true,
+      "fenderBadgeVisible": true,
+      "visibilityNote": "Visible at full size; smaller than catalog images due to wider composition."
+    },
+    {
+      "name": "apex",
+      "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/apex.png",
+      "reference": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/apex-badged.png",
+      "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-b8ebb829-555f-4ee6-9c80-0ff99a35f31c.png",
+      "status": "success",
+      "hoodBadgeVisible": true,
+      "fenderBadgeVisible": true,
+      "visibilityNote": "Clearly visible purple shield with silver tiger on hood and front fender."
+    },
+    {
+      "name": "veloce",
+      "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/veloce-stage.png",
+      "reference": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/veloce-badged.png",
+      "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-d39e854e-3d2e-4b6b-b775-3fbd98172ecc.png",
+      "status": "success",
+      "hoodBadgeVisible": true,
+      "fenderBadgeVisible": true,
+      "visibilityNote": "Clearly visible purple shield with silver tiger on hood and front fender."
+    },
+    {
+      "name": "aria",
+      "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/aria-stage.png",
+      "reference": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/aria-badged.png",
+      "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-f793df84-7f08-41ab-9a7c-7d48c0181e93.png",
+      "status": "success",
+      "hoodBadgeVisible": true,
+      "fenderBadgeVisible": true,
+      "visibilityNote": "Clearly visible purple shield with silver tiger on hood and front fender."
+    },
+    {
+      "name": "terra",
+      "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/terra-stage.png",
+      "reference": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/terra-badged.png",
+      "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-89fcb0ab-cf2c-44ba-ac18-f865099607d6.png",
+      "status": "success",
+      "hoodBadgeVisible": true,
+      "fenderBadgeVisible": true,
+      "visibilityNote": "Clearly visible purple shield with silver tiger on hood and front fender."
+    },
+    {
+      "name": "noir",
+      "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/noir-stage.png",
+      "reference": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/noir-badged.png",
+      "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-3c49b230-9efd-4e45-8330-68c0c404dc20.png",
+      "status": "success",
+      "hoodBadgeVisible": true,
+      "fenderBadgeVisible": true,
+      "visibilityNote": "Clearly visible purple shield with silver tiger on hood and front fender."
+    },
+    {
+      "name": "eon",
+      "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/eon-stage.png",
+      "reference": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/eon-badged.png",
+      "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-5edae29f-2ba7-4c71-a13a-6872de2d22db.png",
+      "status": "success",
+      "hoodBadgeVisible": true,
+      "fenderBadgeVisible": true,
+      "visibilityNote": "Clearly visible purple shield with silver tiger on hood and front fender."
+    }
+  ]
+}

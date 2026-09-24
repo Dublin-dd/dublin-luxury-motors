@@ -1,0 +1,62 @@
+{
+  "mode": "built-in image_gen",
+  "generationCount": 8,
+  "results": [
+    {
+      "name": "hero",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-080ea618-9482-4855-badc-aff1161c8cba.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/hero.png",
+      "status": "success",
+      "visualInspection": "passed"
+    },
+    {
+      "name": "apex",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-7699e3b4-199f-4bca-b783-50897d0792e9.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/apex.png",
+      "status": "success",
+      "visualInspection": "passed"
+    },
+    {
+      "name": "veloce",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-79248456-546f-4875-b3f2-4fb86234ef84.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/veloce.png",
+      "status": "success",
+      "visualInspection": "passed"
+    },
+    {
+      "name": "aria",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-67a0b245-0c89-4ff2-af47-3215a2735a6e.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/aria.png",
+      "status": "success",
+      "visualInspection": "passed"
+    },
+    {
+      "name": "terra",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-d00515e4-0985-41fd-a478-55011c793e45.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/terra.png",
+      "status": "success",
+      "visualInspection": "passed"
+    },
+    {
+      "name": "tiger",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-48de50f5-72fb-46a9-8d99-73a2829fa993.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/tiger.png",
+      "status": "success",
+      "visualInspection": "passed"
+    },
+    {
+      "name": "noir",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-2e294b20-e39f-4028-bfc8-f5dc9bb73375.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/noir.png",
+      "status": "success",
+      "visualInspection": "passed"
+    },
+    {
+      "name": "eon",
+      "path": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-e09a93bf-6730-468d-89cb-3f8a11ab2b0a.png",
+      "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/eon.png",
+      "status": "success",
+      "visualInspection": "passed"
+    }
+  ]
+}

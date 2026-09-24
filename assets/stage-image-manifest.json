@@ -1,0 +1,42 @@
+[
+  {
+    "name": "veloce",
+    "color": "#29282c",
+    "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/veloce.png",
+    "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/veloce-stage.png",
+    "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-7d61e940-68ba-40b9-ba8f-583ed7f421cd.png",
+    "status": "success"
+  },
+  {
+    "name": "aria",
+    "color": "#29282c",
+    "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/aria.png",
+    "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/aria-stage.png",
+    "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-83507b6a-4a65-4f74-a677-b50e89f85dcf.png",
+    "status": "success"
+  },
+  {
+    "name": "terra",
+    "color": "#29282c",
+    "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/terra.png",
+    "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/terra-stage.png",
+    "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-1a54f31d-2fb2-4323-95d5-d56b70f91209.png",
+    "status": "success"
+  },
+  {
+    "name": "noir",
+    "color": "#111216",
+    "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/noir.png",
+    "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/noir-stage.png",
+    "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-8165e823-0bee-488b-baf8-5f05deec6754.png",
+    "status": "success"
+  },
+  {
+    "name": "eon",
+    "color": "#26212a",
+    "source": "/Users/a94421/Documents/Codex/Dublin官网/assets/eon.png",
+    "destination": "/Users/a94421/Documents/Codex/Dublin官网/assets/eon-stage.png",
+    "generatedPath": "/Users/a94421/.codex/generated_images/01a0d288-1190-78d2-ae55-7cd43ae14e08/exec-133a804a-c7b0-4019-97ca-5b612b824e25.png",
+    "status": "success"
+  }
+]

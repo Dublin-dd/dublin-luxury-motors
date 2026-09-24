@@ -1,0 +1,33 @@
+/* Desktop showroom: image, headlights and exhaust move on the same plane. */
+body{min-width:1024px}
+.hero-art{inset:0;background:#15171b;perspective:1600px}
+.hero-art img,.hero.paused .hero-art img{animation:none}
+.car-art{perspective:1250px;isolation:isolate;outline-offset:-12px;cursor:crosshair}
+.car-art img,.car-art:hover img{transform:none;transition:none;will-change:auto}
+.visual-plane{position:absolute;transform-origin:50% 61%;transform:translate3d(var(--move-x,0px),var(--move-y,0px),0) rotateX(var(--pitch,0deg)) rotateY(var(--yaw,0deg)) rotateZ(var(--roll,0deg)) scale(var(--car-scale,1));will-change:transform;backface-visibility:hidden;pointer-events:none}
+.visual-plane>img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:fill;transform:none!important;animation:none!important}
+.dark .visual-plane>img,.ink .visual-plane>img,.plum .visual-plane>img{mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent),linear-gradient(to bottom,transparent,#000 5%,#000 95%,transparent);mask-composite:intersect}
+.light-fx{position:absolute;left:var(--x);top:var(--y);width:var(--light-width);height:1px;transform:translate(-50%,-50%) rotate(var(--angle));opacity:var(--ignition,0);z-index:3;mix-blend-mode:screen;transition:opacity .48s ease;pointer-events:none}
+.light-core{position:absolute;left:0;right:0;top:-1px;height:3px;border-radius:50%;background:#f6fdff;box-shadow:0 0 5px 2px #dcf4ffb3,0 0 16px 5px #adceff70,0 0 38px 12px #8b75d828}
+.light-halo{position:absolute;inset:-17px -35%;background:radial-gradient(ellipse,#effbff85 0%,#c3deff25 35%,#a375ff00 72%);filter:blur(5px)}
+.light-streak{position:absolute;left:-60%;width:220%;height:1px;top:0;background:linear-gradient(90deg,transparent,#c8e5ff20,#fff9,#c8e5ff20,transparent);opacity:.65}
+.ground-light{position:absolute;left:var(--x);top:var(--y);width:22%;height:3%;border-radius:50%;background:radial-gradient(ellipse,#e4e6ff55,transparent 70%);filter:blur(8px);opacity:calc(var(--ignition,0)*.7);transform:translate(-50%,85px) scaleX(1.6);transition:opacity .5s;z-index:2;mix-blend-mode:screen}
+.exhaust-fx{position:absolute;left:var(--ex);top:var(--ey);width:1px;height:1px;opacity:var(--ignition,0);transition:opacity .6s ease;z-index:2}
+.exhaust-origin{position:absolute;left:-8px;top:-2px;width:16px;height:5px;border-radius:50%;background:#d6a4ff;box-shadow:0 0 11px 3px #9957ef75,0 0 23px #b981ff45;animation:exhaust-glow 1.4s ease-in-out infinite alternate}
+.exhaust-puff{position:absolute;left:-14px;top:-5px;width:38px;height:19px;border-radius:50%;background:radial-gradient(ellipse,#d9d2e795 0%,#a6a1b34a 38%,transparent 73%);filter:blur(3px);opacity:0;animation:exhaust-drift 2.65s ease-out infinite;animation-delay:var(--delay);mix-blend-mode:screen;transform-origin:center}
+.exhaust-puff:nth-child(2n){width:31px;height:16px;filter:blur(4px)}
+.exhaust-heat{position:absolute;width:42px;height:9px;left:0;top:-3px;transform:translateX(var(--heat-offset));border-radius:50%;background:linear-gradient(var(--heat-angle),transparent,#9865ed66,#e7dcff99);filter:blur(4px);animation:exhaust-glow .85s ease-in-out infinite alternate}
+@keyframes exhaust-drift{0%{opacity:0;transform:translate(0,0) scale(.3)}15%{opacity:.52}55%{opacity:.21}100%{opacity:0;transform:translate(var(--drift-x),var(--drift-y)) scale(3.1)}}
+@keyframes exhaust-glow{0%{opacity:.5;filter:blur(2px)}100%{opacity:.9;filter:blur(3px)}}
+.showcase[data-car=apex] .exhaust-puff{mix-blend-mode:multiply;background:radial-gradient(ellipse,#8a849e60,transparent 72%)}
+.hero-art .light-core{box-shadow:0 0 9px 3px #e1f6ffb3,0 0 28px 9px #b5d4ff55,0 0 65px 16px #8760b53b}
+.hero-art .exhaust-puff{width:62px;height:28px;animation-duration:3.4s;filter:blur(5px)}
+.hero-art .exhaust-origin{width:20px;height:6px}
+.hero-art .ground-light{height:4%;width:26%;filter:blur(14px);transform:translate(-50%,115px)}
+.hero-title,.down,.motion-toggle{z-index:4}
+.hero.paused .exhaust-puff,.hero.paused .exhaust-origin,.hero.paused .exhaust-heat{animation-play-state:paused}
+.visual-host.fx-sleep .exhaust-puff,.visual-host.fx-sleep .exhaust-origin,.visual-host.fx-sleep .exhaust-heat{animation-play-state:paused}
+.detail-image{background:var(--detail-stage,#fff);overflow:hidden}
+.detail-image img{mix-blend-mode:normal}
+.detail-image[data-dark=true] img{mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent),linear-gradient(to bottom,transparent,#000 5%,#000 95%,transparent);mask-composite:intersect}
+@media(prefers-reduced-motion:reduce){.visual-plane{transform:none!important}.light-fx,.exhaust-fx{transition:none}.exhaust-puff,.exhaust-heat,.ground-light{display:none}.exhaust-origin{animation:none}}
