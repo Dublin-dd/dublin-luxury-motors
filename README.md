@@ -4,7 +4,7 @@
 
 ## 在线访问
 
-项目通过 GitHub Pages 自动部署。仓库启用 Pages 后，网站地址会显示在仓库首页的 **Deployments** 区域。
+项目通过 GitHub Pages 自动部署：**[在线访问督柏林官网](https://dublin-dd.github.io/dublin-luxury-motors/)**。
 
 ## 主要特性
 
@@ -50,4 +50,3 @@ node build.mjs
 ## 开源许可
 
 项目代码与随仓库发布的原创视觉素材采用 [MIT License](LICENSE) 开源。`Dublin / 督柏林` 名称及虎徽仅用于本项目品牌标识；如用于其他品牌或商业项目，请替换相应名称、徽章和业务信息。
-
